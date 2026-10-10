@@ -1,7 +1,7 @@
 # Published legal pages
 
 Static pages for the stores' public privacy-policy URL. They are plain HTML with
-no scripts and no external requests. English, Korean and Spanish match the
+no scripts and no external subresources. Google policy links open only when selected. English, Korean and Spanish match the
 Privacy page inside the app (`lib/l10n/app_*.arb`, keys `privacy*`), and
 `test/vm/legal_pages_test.dart` holds the address and the claims that have to
 agree.
